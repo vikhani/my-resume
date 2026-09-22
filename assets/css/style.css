@@ -150,16 +150,20 @@ h1, h2, .header-title, .resume-item-title {
   background-color: var(--color-accent-bg);
   color: var(--color-accent-text);
   text-align: center;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
   margin: 1.25rem auto 0;
   width: 130px;
+  height: 48px;
   font-size: 1.1rem;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  line-height: 48px;
   transition: opacity 0.2s ease;
 }
 .download-button:hover { opacity: 0.85; }
+.download-button .pdf-icon { width: 18px; height: 18px; flex-shrink: 0; }
 
 .header-name {
   font-size: 2.75rem;

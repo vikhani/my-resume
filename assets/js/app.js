@@ -181,7 +181,7 @@
 
     var pdfLink = document.getElementById("pdfLink");
     pdfLink.href = m.pdf;
-    document.getElementById("pdfLabel").textContent = "📥 " + m.pdfLabel;
+    document.getElementById("pdfLabel").textContent = m.pdfLabel;
 
     var socialList = document.getElementById("socialIcons");
     socialList.innerHTML = "";
