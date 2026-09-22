@@ -181,7 +181,8 @@
 
     var pdfLink = document.getElementById("pdfLink");
     pdfLink.href = m.pdf;
-    document.getElementById("pdfLabel").textContent = m.pdfLabel;
+    pdfLink.setAttribute("aria-label", m.pdfAriaLabel || m.pdfLabel);
+    pdfLink.title = m.pdfAriaLabel || m.pdfLabel;
 
     var socialList = document.getElementById("socialIcons");
     socialList.innerHTML = "";

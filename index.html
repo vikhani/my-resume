@@ -25,22 +25,22 @@
 
   <header class="page-header">
     <div class="top-bar">
-      <div class="lang-switch" id="langSwitch" role="group" aria-label="Language">
-        <button type="button" data-lang="ru" aria-pressed="false">RU</button>
-        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      <div class="top-bar-group">
+        <div class="lang-switch" id="langSwitch" role="group" aria-label="Language">
+          <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="icon-button" id="pdfLink" href="#" target="_blank" rel="noopener">
+          <svg class="pdf-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11.5m0 0l-4-4m4 4l4-4M5 19.5h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </a>
       </div>
-      <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      <button type="button" class="icon-button theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
         <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"></circle><g stroke-width="1.6"><line x1="12" y1="1.5" x2="12" y2="4.2"></line><line x1="12" y1="19.8" x2="12" y2="22.5"></line><line x1="1.5" y1="12" x2="4.2" y2="12"></line><line x1="19.8" y1="12" x2="22.5" y2="12"></line><line x1="4.4" y1="4.4" x2="6.3" y2="6.3"></line><line x1="17.7" y1="17.7" x2="19.6" y2="19.6"></line><line x1="4.4" y1="19.6" x2="6.3" y2="17.7"></line><line x1="17.7" y1="6.3" x2="19.6" y2="4.4"></line></g></svg>
         <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"></path></svg>
       </button>
     </div>
 
     <img class="avatar" id="avatar" src="assets/img/avatar.png" alt="">
-
-    <a class="download-button" id="pdfLink" href="#" target="_blank" rel="noopener">
-      <svg class="pdf-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11.5m0 0l-4-4m4 4l4-4M5 19.5h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-      <span id="pdfLabel">PDF</span>
-    </a>
 
     <h1 class="header-name" id="name"></h1>
 

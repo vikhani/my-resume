@@ -4,7 +4,8 @@
     "pageTitle": "Viktoria Khanieva — Resume",
     "description": "Viktoria Khanieva — Senior Java Backend Engineer, Financial Services. Resume.",
     "pdf": "assets/pdf/Khanieva_Viktoria_Resume_EN.pdf",
-    "pdfLabel": "PDF"
+    "pdfLabel": "PDF",
+    "pdfAriaLabel": "Download PDF resume"
   },
   "profile": {
     "name": "Viktoria Khanieva",

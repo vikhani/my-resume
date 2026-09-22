@@ -4,7 +4,8 @@
     "pageTitle": "Резюме — Виктория Ханиева",
     "description": "Виктория Ханиева — Senior Java-разработчик. Резюме.",
     "pdf": "assets/pdf/Khanieva_Viktoria_Resume_RU.pdf",
-    "pdfLabel": "PDF"
+    "pdfLabel": "PDF",
+    "pdfAriaLabel": "Скачать резюме в PDF"
   },
   "profile": {
     "name": "Виктория Ханиева",
