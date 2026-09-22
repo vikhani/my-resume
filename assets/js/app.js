@@ -257,6 +257,18 @@
 
   // ---------- Init ----------
 
+  function logEasterEgg() {
+    console.log(
+      "%cHi, you're actually looking inside!%c\n" +
+        "Yes, this resume was vibe-coded, I cherish my time.\n" +
+        "No, I don't vibe-code production, because I'm the one\n" +
+        "responsible for my changes. Invite me to an interview\n" +
+        "round and we can discuss this!",
+      "font-weight: bold;",
+      "font-weight: normal;"
+    );
+  }
+
   function initLangSwitch() {
     document.querySelectorAll("#langSwitch button").forEach(function (b) {
       b.addEventListener("click", function () {
@@ -269,5 +281,6 @@
     initTheme();
     initLangSwitch();
     setLang(detectLang());
+    logEasterEgg();
   });
 })();
