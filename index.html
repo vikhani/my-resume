@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Резюме — Виктория Ханиева</title>
+<meta name="description" content="Виктория Ханиева — Senior Java-разработчик. Резюме.">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Виктория Ханиева — Резюме">
+<meta property="og:description" content="Senior Java-разработчик, 8 лет в коммерческой разработке.">
+<meta property="og:image" content="assets/img/avatar.png">
+
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,300,600,700,800" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+  <header class="page-header">
+    <div class="top-bar">
+      <div class="lang-switch" id="langSwitch" role="group" aria-label="Language">
+        <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"></circle><g stroke-width="1.6"><line x1="12" y1="1.5" x2="12" y2="4.2"></line><line x1="12" y1="19.8" x2="12" y2="22.5"></line><line x1="1.5" y1="12" x2="4.2" y2="12"></line><line x1="19.8" y1="12" x2="22.5" y2="12"></line><line x1="4.4" y1="4.4" x2="6.3" y2="6.3"></line><line x1="17.7" y1="17.7" x2="19.6" y2="19.6"></line><line x1="4.4" y1="19.6" x2="6.3" y2="17.7"></line><line x1="17.7" y1="6.3" x2="19.6" y2="4.4"></line></g></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"></path></svg>
+      </button>
+    </div>
+
+    <img class="avatar" id="avatar" src="assets/img/avatar.png" alt="">
+
+    <a class="download-button" id="pdfLink" href="#" target="_blank" rel="noopener">
+      <span id="pdfLabel">PDF</span>
+    </a>
+
+    <h1 class="header-name" id="name"></h1>
+
+    <div class="title-bar">
+      <h2 class="header-title" id="role"></h2>
+      <ul class="icon-links" id="socialIcons"></ul>
+    </div>
+  </header>
+
+  <section class="content-section">
+    <div class="section-header"><h2 id="skillsTitle"></h2></div>
+    <dl class="skills-grid" id="skillsList"></dl>
+  </section>
+
+  <section class="content-section">
+    <div class="section-header"><h2 id="aboutTitle"></h2></div>
+    <div class="about-text" id="aboutText"></div>
+  </section>
+
+  <section class="content-section">
+    <div class="section-header"><h2 id="experienceTitle"></h2></div>
+    <div id="experienceList"></div>
+  </section>
+
+  <section class="content-section">
+    <div class="section-header"><h2 id="educationTitle"></h2></div>
+    <div id="educationList"></div>
+  </section>
+
+  <section class="content-section">
+    <div class="section-header"><h2 id="contactsTitle"></h2></div>
+    <ul class="contacts-list" id="contactsList"></ul>
+  </section>
+
+</div>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>

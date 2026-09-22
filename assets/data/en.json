@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "htmlLang": "en",
+    "pageTitle": "Viktoria Khanieva — Resume",
+    "description": "Viktoria Khanieva — Senior Java Backend Engineer, Financial Services. Resume.",
+    "pdf": "assets/pdf/Khanieva_Viktoria_Resume_EN.pdf",
+    "pdfLabel": "PDF"
+  },
+  "profile": {
+    "name": "Viktoria Khanieva",
+    "role": "Senior Java Backend Engineer — Financial Services · 8+ Years",
+    "avatar": "assets/img/avatar.png",
+    "avatarAlt": "Viktoria Khanieva"
+  },
+  "socialIcons": [
+    { "type": "github", "href": "https://github.com/vikhani", "label": "GitHub" },
+    { "type": "linkedin", "href": "https://linkedin.com/in/vikhanieva", "label": "LinkedIn" },
+    { "type": "telegram", "href": "https://t.me/vkhanieva", "label": "Telegram" }
+  ],
+  "labels": {
+    "skills": "Core Skills",
+    "about": "Summary",
+    "experience": "Experience",
+    "education": "Education",
+    "contacts": "Contacts",
+    "present": "Present"
+  },
+  "skills": [
+    { "label": "Languages & Frameworks", "value": "Java (8–21), Spring Boot, Spring Cloud, Spring Data, C#, C++" },
+    { "label": "Data & Messaging", "value": "PostgreSQL, MySQL, Redis, Apache Kafka, Hibernate, Liquibase, MyBatis" },
+    { "label": "Infrastructure", "value": "Kubernetes, ArgoCD, GitLab CI, OpenShift, Docker, Resilience4j" },
+    { "label": "Testing & Quality", "value": "JUnit, Mockito, Testcontainers, WireMock, static code analysis (SAST)" },
+    { "label": "Leadership", "value": "Interim team lead, release planning, code review, mentoring, technical documentation" },
+    { "label": "Languages", "value": "English (C1 / Advanced), Russian (Native)" }
+  ],
+  "about": [
+    "Backend engineer with 8 years of experience in commercial development — the last 4 years in Java backend for banking and insurance, and 4 years before that in C++/C# building a static code analyzer used to catch bugs and vulnerabilities in production codebases. Comfortable stepping into temporary team lead duties: planning releases, splitting up work across a 7-person team, and making sure things ship.",
+    "Current stack: Java 21, virtual threads, Spring Boot / Cloud / Data, Hibernate, PostgreSQL, Redis, Kafka, Kubernetes, Resilience4j."
+  ],
+  "experience": [
+    {
+      "company": "Sovcombank",
+      "role": "Senior Java Developer",
+      "period": "Mar 2024 – Present (2 yrs 7 mo)",
+      "summary": "One of Russia's largest privately-owned banks (10M+ retail clients). Backend for a mobile insurance app — microservices handling policy issuance, payment, and pension fund flows.",
+      "bullets": [
+        "Fixed a race condition in policy issuance/payment by moving the flow to a transactional inbox pattern (Kafka–PostgreSQL) — eliminated issuance errors and simplified incident debugging",
+        "Fixed a DB connection-pool exhaustion causing wide API degradation on the core insurance service — narrowed transaction scope, cutting latency by ~85–90%",
+        "Built the endpoint behind a main-screen product widget — highest-traffic call in our API at 1.3M requests/day, ~35 req/s at peak — using Resilience4j and Redis caching for latency and resilience",
+        "Own release prep and deployment end-to-end: build, packaging, rollout via Kubernetes and ArgoCD/GitLab CI",
+        "Design and stand up new microservices from scratch, including security review sign-off",
+        "Covered as team lead during absence — planned releases, prioritized work across a 7-person team (2 devs, 3 analysts, 2 QA)",
+        "Run team retros and a technical book club (Kafka, Designing Data-Intensive Applications)",
+        "Built a prototype toxic-comment moderation service using DJL for BERT inference, with MinIO/S3 storage",
+        "Write unit/integration tests (JUnit, Mockito, Testcontainers, WireMock), review code, join incident postmortems, resolve infosec findings"
+      ]
+    },
+    {
+      "company": "SENLA (Software Engineering Laboratory)",
+      "role": "Java Software Engineer",
+      "period": "Mar 2023 – Mar 2024 (1 yr 1 mo)",
+      "summary": "Intermediary banking service aggregating data across integrations and checking loan offers for business customers, built for one of the top banks in Russia.",
+      "bullets": [
+        "Built a health-monitoring service for the aggregator and its dependent microservices",
+        "Took part in architecture decisions and service design; built REST APIs and integrations with adjacent microservices",
+        "Covered the codebase with unit and integration tests (JUnit, Mockito, Testcontainers)",
+        "Set up technical documentation practices for the project from scratch",
+        "Wrote a 200+ page Java reference guide for onboarding junior developers; gave an internal talk on Spring Cloud"
+      ],
+      "stack": "Stack: Java 17, PostgreSQL, MyBatis, Liquibase, Kafka, OpenShift"
+    },
+    {
+      "company": "Diasoft",
+      "role": "Java Developer",
+      "period": "Jul 2022 – Mar 2023 (9 mo)",
+      "summary": "Back-office gateway processing thousands of payment documents, enriching and validating them against current legislation. Used in 2 of the top-10 banks in Russia.",
+      "bullets": [
+        "Kept the codebase backward-compatible with Java 6 for clients on older platform versions",
+        "Refactored and developed payment document processing logic, with test coverage",
+        "Fixed issues surfaced by static code analysis",
+        "Set up technical documentation that significantly cut onboarding time for new hires"
+      ]
+    },
+    {
+      "company": "PVS-Studio LLC",
+      "period": "4 yrs 3 mo",
+      "positions": [
+        {
+          "role": "C# Developer",
+          "period": "May 2019 – May 2022 (3 yrs 1 mo)",
+          "bullets": [
+            "Developed an internal CRM system (Blazor + PostgreSQL); owned the backend mail-generation system, migrated the statistics report system to the new CRM, and converted data from the old CRM database (MySQL → PostgreSQL)",
+            "Developed internal CusDev automation services — one decision increased customer retention by 30%",
+            "Designed and implemented a reports generation system pulling from Bitbucket/YouTrack, CRM, SVN, and Jenkins to support business decisions, incorporating management and stakeholder feedback",
+            "Joined client calls and mentored new hires"
+          ]
+        },
+        {
+          "role": "C++ Developer",
+          "period": "Mar 2018 – May 2019 (1 yr 3 mo)",
+          "summary": "PVS-Studio is a static analyzer for code quality, security (SAST), and code safety.",
+          "bullets": [
+            "Developed and supported general-purpose and MISRA-based diagnostic rules for the static analyzer",
+            "Conducted algorithmic research for analyzer optimization",
+            "Wrote marketing articles targeted at developers"
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Tula State University",
+      "degree": "Bachelor's degree, Computational and Applied Mathematics",
+      "period": "Sep 2015 – Jul 2019",
+      "note": "Additional Certification: Translation in Business Communications"
+    }
+  ],
+  "contacts": [
+    { "type": "phone", "label": "Phone", "value": "+7 (902) 844-85-01", "href": "tel:+79028448501" },
+    { "type": "email", "label": "Email", "value": "vikhanieva@gmail.com", "href": "mailto:vikhanieva@gmail.com" },
+    { "type": "telegram", "label": "Telegram", "value": "t.me/vkhanieva", "href": "https://t.me/vkhanieva" },
+    { "type": "linkedin", "label": "LinkedIn", "value": "linkedin.com/in/vikhanieva", "href": "https://linkedin.com/in/vikhanieva" },
+    { "type": "github", "label": "GitHub", "value": "github.com/vikhani", "href": "https://github.com/vikhani" },
+    { "type": "habr", "label": "Blog (Habr)", "value": "habr.com/ru/users/vkhanieva/posts/", "href": "https://habr.com/ru/users/vkhanieva/posts/" }
+  ]
+}
