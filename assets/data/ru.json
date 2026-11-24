@@ -35,7 +35,7 @@
     { "label": "Тестирование", "value": "JUnit, Mockito, Testcontainers, WireMock" },
     { "label": "Инфраструктура", "value": "Kubernetes, OpenShift, Rancher, Docker, ArgoCD, GitLab CI, Jenkins, Git/GitLab, Gradle, Maven" },
     { "label": "Мониторинг", "value": "Grafana, Prometheus, Micrometer, observability" },
-    { "label": "Агентская разработка", "value": "OpenCode, MCP, skills, subagents, работа с on-prem LLM"}
+    { "label": "Агентская разработка", "value": "OpenCode, MCP, skills, subagents, работа с on-prem LLM"},
     { "label": "Языки", "value": "Английский C1" }
   ],
   "about": [
